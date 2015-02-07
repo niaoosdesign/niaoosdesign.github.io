@@ -153,7 +153,8 @@ header.major {
             background: rgba(0,0,0,0.0);
             color: rgba(0,0,0,0.0);
             transition: 0.5s all ease;
-            font-size: 11px;
+            font-size: 13px;
+            font-weight: 300;
             line-height: 50px;
             text-align: center;
             letter-spacing: 1.7px;
@@ -163,6 +164,7 @@ header.major {
         div.contents div.col1 div:hover p{
             background: rgba(0,0,0,0.8);
             color: #fff;
+            line-height: 250px;
         }
 
         div.contents div.col2 div p{
@@ -174,7 +176,8 @@ header.major {
             background: rgba(0,0,0,0.0);
             color: rgba(0,0,0,0.0);
             transition: 0.5s all ease;
-            font-size: 11px;
+            font-size: 13px;
+            font-weight: 300;
             line-height: 50px;
             text-align: center;
             letter-spacing: 1.7px;
@@ -184,4 +187,5 @@ header.major {
         div.contents div.col2 div:hover p{
             background: rgba(0,0,0,0.8);
             color: #fff;
+            line-height: 250px;
         }
