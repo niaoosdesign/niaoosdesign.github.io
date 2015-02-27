@@ -179,21 +179,35 @@ a{
 
 
 /*about*/
-        div.about{
+        div.title{
             padding: 120px 0 0;
+            height: 130px;
+            border-bottom: 1px solid #000;
+            background: #fff;
+
+        }
+
+        div.title h1{
+            font-size: 23px;
+            font-weight: 900;
+            letter-spacing: 1.7px;
+        }
+
+        div.profile{
+            padding: 10px 0 0;
             margin-bottom: 100px;
 
         }
-        div.about div.about_col1{
+        div.profile div.about_col1{
             float: left;
             width: 50%;
             height: 100%;
-            background: red;
+
         }
 
-        div.about div.about_col2{
+        div.profile div.about_col2{
             float: left;
             width: 50%;
             height: 100%;
-            background: blue;
+
         }
