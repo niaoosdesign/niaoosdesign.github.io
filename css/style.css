@@ -5,7 +5,7 @@
 
 body{
     font-family: 'Lato', sans-serif;
-    margin: 0;
+    margin: 0 10%;
 
 }
 
@@ -13,11 +13,15 @@ a{
     color: #666;
 }
 
-header.major {
+
+/*header*/
+        header.major {
             position: fixed;
-            width: 100%;
-            height: 100px;
+            width: 80%;
+            height: 94px;
             background: #fff;
+            border-bottom: 1px solid #000;
+            padding-top: 10px;
             z-index: 1
 
         }
@@ -26,13 +30,15 @@ header.major {
         header.major ul {
             float: left;
             text-decoration: none;
-            margin: 40px 40px 0px;
+            margin-top: 40px;
+
         }
 
         header.major h1 a{
+
             text-decoration: none;
             font-weight:900;
-            font-size:28px;
+            font-size:24px;
             letter-spacing: 3px;
             vertical-align: top;
             color: #000;
@@ -40,8 +46,9 @@ header.major {
 
 
         header.major ul {
-            margin-left:0;
-            margin-top: 46px;
+            position: absolute;
+            right: 0px;
+            margin-top: 42px;
 
 
         }
@@ -57,63 +64,37 @@ header.major {
 
         }
 
-        header.major ul li.portfolio{
-            width:79px;
+        header.major ul li.category_01{
+
             margin-right:28px;
         }
 
-        header.major ul li.blog{
-            width:37px;
+        header.major ul li.category_02{
+
             margin-right:28px;
         }
 
-        header.major ul li.about{
-            width:47px;
+        header.major ul li.category_03{
+
             margin-right:28px;
         }
 
-        header.major ul li.contact{
-            width:67px;
+        header.major ul li.category_04{
+
         }
 
         header.major ul li:hover{
             border-bottom: 2px solid #666;
             font-weight: 400;
             color: #333;
-            letter-spacing: 1.5px;
+            letter-spacing: 1.6px;
 
         }
 
-        header.major aside {
-            float: right;
-            margin: 40px 40px 0px;
-        }
-        header.major aside .year,
-        header.major aside .field{
-            display: inline-block;
-            -webkit-border-radius: 30;
-            -moz-border-radius: 30;
-            border-radius: 30px;
-            height: 12px;
-            font-weight: 300;
-            letter-spacing: 1.7px;
-            color: #aaa;
-            font-size: 11px;
-            background: #ffffff;
-            padding: 6px 25px;
-            border: solid #aaa 1px;
-            margin-left: 6px;
-
-        }
-
-        header.major aside .year:hover,
-        header.major aside .field:hover{
-            border: 1px solid #666;
-            color: #666;
-        }
+/*index_contents*/
 
         div.contents{
-            padding: 100px 40px 0;
+            padding: 120px 0 0;
             margin-bottom: 100px;
 
         }
@@ -167,6 +148,12 @@ header.major {
             line-height: 250px;
         }
 
+        div.contents div.col1 div.about div:hover p{
+            background: pink;
+            opacity: 50%
+
+        }
+
         div.contents div.col2 div p{
             position: absolute;
             right:0;
@@ -188,4 +175,25 @@ header.major {
             background: rgba(0,0,0,0.8);
             color: #fff;
             line-height: 250px;
+        }
+
+
+/*about*/
+        div.about{
+            padding: 120px 0 0;
+            margin-bottom: 100px;
+
+        }
+        div.about div.about_col1{
+            float: left;
+            width: 50%;
+            height: 100%;
+            background: red;
+        }
+
+        div.about div.about_col2{
+            float: left;
+            width: 50%;
+            height: 100%;
+            background: blue;
         }
