@@ -24,33 +24,33 @@ var expectedFilesInDistDir = [
 
     'css/', // for directories, a `/` character
             // should be included at the end
-        'css/main.css',
-        'css/normalize.css',
+    'css/main.css',
+    'css/normalize.css',
 
     'doc/',
-        'doc/TOC.md',
-        'doc/css.md',
-        'doc/extend.md',
-        'doc/faq.md',
-        'doc/html.md',
-        'doc/js.md',
-        'doc/misc.md',
-        'doc/usage.md',
+    'doc/TOC.md',
+    'doc/css.md',
+    'doc/extend.md',
+    'doc/faq.md',
+    'doc/html.md',
+    'doc/js.md',
+    'doc/misc.md',
+    'doc/usage.md',
 
     'favicon.ico',
     'humans.txt',
 
     'img/',
-        'img/.gitignore',
+    'img/.gitignore',
 
     'index.html',
 
     'js/',
-        'js/main.js',
-        'js/plugins.js',
-        'js/vendor/',
-            'js/vendor/jquery-' + pkg.devDependencies.jquery + '.min.js',
-            'js/vendor/modernizr-2.8.3.min.js',
+    'js/main.js',
+    'js/plugins.js',
+    'js/vendor/',
+    'js/vendor/jquery-' + pkg.devDependencies.jquery + '.min.js',
+    'js/vendor/modernizr-2.8.3.min.js',
 
     'robots.txt',
     'tile-wide.png',
@@ -103,10 +103,10 @@ function checkFiles(directory, expectedFiles) {
     (files.filter(function (file) {
         return expectedFiles.indexOf(file) === -1;
     })).forEach(function (file) {
-        it('"' + file + '" should NOT be present', function () {
-            assert(false);
+            it('"' + file + '" should NOT be present', function () {
+                assert(false);
+            });
         });
-    });
 
 }
 

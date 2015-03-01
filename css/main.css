@@ -112,22 +112,24 @@ body {
 
 /****header*****/
 
-header.menu{
-    position:fixed;
-    top:0;
-    left:0;
-    right:0;
+header.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     padding: 45px 10% 0;
     background: #ffffff;
     z-index: 2;
 }
-header.menu::after{
-    content:'';
-    display:block;
-    height:30px;
-    border-bottom:1px solid #000;
-    clear:both;
+
+header.menu::after {
+    content: '';
+    display: block;
+    height: 30px;
+    border-bottom: 1px solid #000;
+    clear: both;
 }
+
 header.menu h1 {
     float: left;
     font-size: 24px;
@@ -135,7 +137,6 @@ header.menu h1 {
     letter-spacing: 3px;
     color: #000000
 }
-
 
 header.menu ul {
     float: right;
@@ -148,27 +149,27 @@ header.menu ul li {
     font-size: 12px;
     font-weight: 300;
     letter-spacing: 1.5px;
-    color:#999;
-    margin-left:22px;
+    color: #999;
+    margin-left: 22px;
     box-sizing: border-box;
     text-align: center;
 
 }
 
-header.menu ul li.all{
-    width:100px;
+header.menu ul li.all {
+    width: 100px;
 }
 
-header.menu ul li.branding{
-    width:76px;
+header.menu ul li.branding {
+    width: 76px;
 }
 
-header.menu ul li.graphic{
-    width:122px;
+header.menu ul li.graphic {
+    width: 122px;
 }
 
-header.menu ul li.web{
-    width:122px;
+header.menu ul li.web {
+    width: 122px;
 }
 
 header.menu ul li:hover {
@@ -177,45 +178,44 @@ header.menu ul li:hover {
     text-align: center;
 }
 
-
 /****portfoilo*****/
 
-section.portfolio{
+section.portfolio {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
 
 }
 
-section.portfolio .item{
-    width:25%;
-    float:left;
+section.portfolio .item {
+    width: 25%;
+    float: left;
 
 }
 
-
-section.portfolio .item a{
-    position:relative;
-    display:block;
+section.portfolio .item a {
+    position: relative;
+    display: block;
 
 }
-section.portfolio .item a img{
+
+section.portfolio .item a img {
     width: 100%;
     height: 100%;
 
 }
 
-section.portfolio .item a p{
-    position:absolute;
-    left:0;
-    right:0;
-    top:0;
-    bottom:0;
-    padding-top:0;
-    text-align:center;
+section.portfolio .item a p {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding-top: 0;
+    text-align: center;
     background: #000000;
     opacity: 0;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 300;
     letter-spacing: 1.5px;
     color: #fff;
@@ -223,25 +223,25 @@ section.portfolio .item a p{
 
 }
 
-section.portfolio .item a:hover p{
+section.portfolio .item a:hover p {
     opacity: 0.8;
     padding-top: 40%;
 }
 
 /*****footer*****/
-footer{
+footer {
     width: 100%;
-    height:100px;
+    height: 100px;
     background: #ffffff;
-    position:relative;
+    position: relative;
 }
 
-footer p{
-    position:absolute;
-    top:50%;
+footer p {
+    position: absolute;
+    top: 50%;
     margin: 0 auto;
-    font-size:10px;
-    color:#999;
+    font-size: 10px;
+    color: #999;
 
 }
 

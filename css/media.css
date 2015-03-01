@@ -1,13 +1,20 @@
-@media (max-width: 1200px) {
+@media (min-width: 1800px) {
     section.portfolio .item {
-        width: 33.333333%;}
+        width: 20%;
+    }
 }
 
+@media (max-width: 1200px) {
+    section.portfolio .item {
+        width: 33.333333%;
+    }
+}
 
 @media (max-width: 900px) {
-    body{
-        margin-top:230px;
+    body {
+        margin-top: 230px;
     }
+
     header.menu h1 {
         float: none;
         width: 184px;
@@ -26,17 +33,20 @@
         text-align: center;
         margin-left: 0;
     }
+
     section.detail {
-        overflow:visible;
-        height:auto
+        overflow: visible;
+        height: auto
     }
+
     section.detail .img,
-    section.detail .description{
-        float:none;
-        width:100%;
+    section.detail .description {
+        float: none;
+        width: 100%;
     }
+
     section.detail .img img {
-        width:100%;
+        width: 100%;
     }
 
     section.portfolio .item {
@@ -44,9 +54,8 @@
 
     }
 
-
-
 }
+
 @media (max-width: 600px) {
 
     @media (max-width: 480px) {
