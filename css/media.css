@@ -1,0 +1,56 @@
+@media (max-width: 1200px) {
+    section.portfolio .item {
+        width: 33.333333%;}
+}
+
+
+@media (max-width: 900px) {
+    body{
+        margin-top:230px;
+    }
+    header.menu h1 {
+        float: none;
+        width: 184px;
+        margin: 0 auto 15px;
+
+    }
+
+    header.menu ul {
+        float: none;
+        width: 122px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    header.menu ul li {
+        text-align: center;
+        margin-left: 0;
+    }
+    section.detail {
+        overflow:visible;
+        height:auto
+    }
+    section.detail .img,
+    section.detail .description{
+        float:none;
+        width:100%;
+    }
+    section.detail .img img {
+        width:100%;
+    }
+
+    section.portfolio .item {
+        width: 50%;
+
+    }
+
+
+
+}
+@media (max-width: 600px) {
+
+    @media (max-width: 480px) {
+        section.portfolio .item {
+            width: 100%;
+
+        }
