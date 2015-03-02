@@ -249,7 +249,6 @@ footer p {
 /*********about*********/
 
 section.about .title{
-    padding:10px 0;
     height: 130px;
     border-bottom:1px solid #000000;
 }
@@ -267,6 +266,13 @@ section.about .profile{
     width: 100%;
     overflow: hidden;
 
+}
+section.about .profile strong{
+    font-weight: 600;
+}
+section.about .profile em{
+    font-size: 10px;
+    color: #999;
 }
 
 section.about .profile .about_col1{
@@ -301,30 +307,45 @@ section.about .profile .about_col1 span{
 
 section.about .profile .about_col1 p{
     font-size: 13px;
-    font-weight: 700;
-    line-height: 20px;
+    font-weight: 400;
+    line-height: 18px;
     color:#666;
     margin-bottom:25px;
 
 }
-section.about .profile .about_col1 ul{
-    margin-bottom:50px;
-}
+
 section.about .profile .about_col1 ul li{
     display: inline;
     margin-right: 15px;
 
+}
+section.about .profile .photo{
+    margin:10% 0;
 
 }
-
-
 section.about .profile .about_col2{
     float: right;
     width: 50%;
 }
 
+section.about .profile .about_col2 h2{
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+section.about .profile .about_col2 ul{
+    margin-bottom: 10px;
+}
+section.about .profile .about_col2 li{
+    font-family: "RixSGo M";
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 19px;
+    color: #666;
 
-
+}
 
 /* ==========================================================================
    Helper classes
