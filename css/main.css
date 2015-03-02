@@ -173,7 +173,7 @@ header.menu ul li.web {
 }
 
 header.menu ul li:hover {
-    border-bottom: 2px solid #999;
+    border-bottom: 2px solid #aaa;
     font-weight: 400;
     text-align: center;
 }
@@ -279,6 +279,12 @@ section.about .profile .about_col1{
     float: left;
     width: 50%;
 }
+
+section.about .profile .sns li a:hover img{
+    filter:alpha(opacity=50);
+    opacity: 0.5;
+}
+
 section.about .profile .about_col1 h2{
     font-size:18px;
     font-weight:900;
