@@ -248,16 +248,17 @@ footer p {
 
 /*********about*********/
 
-section.about .title{
+section.about .title,
+section.contact .title{
     height: 130px;
     border-bottom:1px solid #000000;
 }
 
-section.about .title h1{
+section.about .title h1,
+section.contact .title h1{
     font-size:23px;
     font-weight: 900;
     letter-spacing: 1.5px;
-
 }
 
 section.about .profile{
@@ -352,6 +353,23 @@ section.about .profile .about_col2 li{
     color: #666;
 
 }
+
+
+/*********contact*********/
+
+section.contact .title p a{
+    line-height: 25px;
+    font-size: 13px;
+    color: #aaa;
+}
+
+section.contact table{
+    margin-top: 20px;
+}
+section.contact tr{
+    line-height: 30px;
+}
+
 
 /* ==========================================================================
    Helper classes
