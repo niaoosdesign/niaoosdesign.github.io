@@ -101,7 +101,7 @@ a {
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato","RixSGo M",sans-serif;
     margin-top: 120px;
 }
 
@@ -217,7 +217,7 @@ section.portfolio .item a p {
     opacity: 0;
     font-size: 15px;
     font-weight: 300;
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
     color: #fff;
     transition: 0.8s all;
 
@@ -287,17 +287,17 @@ section.about .profile .sns li a:hover img{
 }
 
 section.about .profile .about_col1 h2{
+    font-family: "Lato",sans-serif;
     font-size:18px;
-    font-weight:900;
+    font-weight: 900;
     letter-spacing: 1px;
     margin-bottom: 10px;
 
 }
 
 section.about .profile .about_col1 h3{
-    font-family: 'RixSGo B';
+    font-family: "RixSGo B",sans-serif;
     font-size:15px;
-    font-weight:900;
     letter-spacing: 2px;
     margin-bottom: 20px;
 
@@ -346,7 +346,7 @@ section.about .profile .about_col2 ul{
     margin-bottom: 10px;
 }
 section.about .profile .about_col2 li{
-    font-family: "RixSGo M";
+    font-family: "Lato","RixSGo L",sans-serif;
     font-size: 11px;
     font-weight: 300;
     line-height: 19px;
@@ -392,7 +392,7 @@ section.item .title .subject .eng_sub{
 }
 
 section.item .title .subject .kor_sub{
-    font-family: "RixSGo B";
+    font-family: "Lato","RixSGo B",sans-serif;
     font-size: 13px;
     line-height: 20px;
     padding-top: 10px;
@@ -402,7 +402,7 @@ section.item .title .caption{
     float: left;
     width: 50%;
     margin-right: 5%;
-    font-family: "RixSGo M";
+    font-family: "Lato","RixSGo L",sans-serif;
     font-size: 13px;
     line-height: 20px;
     color: #666666;
