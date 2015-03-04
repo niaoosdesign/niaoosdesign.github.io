@@ -190,7 +190,6 @@ section.portfolio {
 section.portfolio .item {
     width: 25%;
     float: left;
-
 }
 
 section.portfolio .item a {
@@ -216,8 +215,9 @@ section.portfolio .item a p {
     background: #000000;
     opacity: 0;
     font-size: 15px;
-    font-weight: 300;
+    font-weight:300;
     letter-spacing: 2px;
+    line-height:22px;
     color: #fff;
     transition: 0.8s all;
 
@@ -225,7 +225,19 @@ section.portfolio .item a p {
 
 section.portfolio .item a:hover p {
     opacity: 0.8;
-    padding-top: 40%;
+    padding-top: 39%;
+}
+
+section.portfolio #about a:hover p {
+    background: indianred;
+    opacity: 0.8;
+    padding-top: 39%;
+}
+
+section.portfolio #contact a:hover p {
+    background: mediumaquamarine;
+    opacity: 0.8;
+    padding-top: 39%;
 }
 
 /*****footer*****/
@@ -249,7 +261,7 @@ footer p {
 /*********about*********/
 
 section.about .title,
-section.contact .title{
+section.contact .title {
     height: 130px;
     border-bottom:1px solid #000000;
 }
@@ -362,12 +374,39 @@ section.contact .title p a{
     font-size: 13px;
     color: #aaa;
 }
+section.contact form{
+    text-align: left;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
 
 section.contact table{
-    margin-top: 20px;
+    margin-top: 10px;
 }
-section.contact tr{
-    line-height: 30px;
+section.contact TR TD{
+    font-family: "Lato", "RixSGo L", sans-serif;
+    font-weight: 900;
+    display: block;
+}
+section.contact TR TD.list{
+    padding: 12px 0 8px 0;
+    text-align: left;
+}
+section.contact .submit{
+    width:296px;
+    height:47px;
+    margin-top: 15px;
+    border: 1px solid #222222;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;letter-spacing: 2px;
+    background: #555555;
+
+}
+section.contact .submit:hover {
+    border-color: lightseagreen;
+    background: mediumaquamarine;
 }
 
 /*********item*********/
