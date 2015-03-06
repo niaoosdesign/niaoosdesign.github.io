@@ -250,7 +250,7 @@ footer {
 
 footer p {
     position: absolute;
-    top: 50%;
+    top:80%;
     margin: 0 auto;
     font-size: 10px;
     color: #999;
@@ -462,6 +462,7 @@ section.item .contents{
 }
 section.item .contents .img{
     width: 80%;
+    max-width: 800px;
     margin: 0 auto;
 }
 
